@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Blaine and Katie</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Blaine Garrett and Katie Hubbs are getting married June 29th, 2013.">
+		<meta name="author" content="Blaine Garrett <blaine@blainegarrett.com>">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css' />
+		<link rel="icon" type="image/gif" href="favicon.ico">
+
+		<!-- CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+      html, body {
+        height: 100%;
+		font-family: 'Raleway', sans-serif;
+		line-height : 21px;
+		font-size : 16px;
+      }
+
+	a { color:#df7e85; }
+	a:hover { color:#9a565b; text-decoration:none;}
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto;
+      }
+
+      /* Set the fixed height of the footer here */
+	.header-padding { height : 75px; }
+	
+
+	#gallery_prev, #gallery_next { font-size : 32px; padding:5px;  float:right;}
+	#gallery_image_container { clear:both; position: relative; width: 770px; height: 532px;}
+
+	/* Footer */
+	#overshoulder {  }
+	#footer { font-size : 14px; height: 100px; /*background-image:url('./images/section_bg_bottom.png');*/ border-top:1px solid #ccc; margin-left : -30px; margin-right : -30px; background-repeat : repeat-x; padding-top:30px;}
+	#footer .row { margin-left : 0px; }
+
+	.footer_title, .footer_def { display:block; }
+	.footer_def {line-height : 15px; }
+
+	/* Intro Heading splash */
+	.hero-unit { padding : 0px; margin-bottom:0px; margin-left: -30px; margin-right: -30px; border-bottom: 1px solid #ccc; }
+	
+	/* Section  Styles */
+	.section_span_text { padding-top:4px; }
+	
+	.section_footer {
+		margin-left : -30px;
+		margin-right: -30px;
+		/*background-image: url('./images/section_bg.png');*/
+		border-bottom:1px solid #ccc;
+		background-repeat:repeat-x;
+		background-position: center bottom;
+		height : 30px;
+	}
+		.navbar .brand {
+			width : 172px;
+			height : 152px;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-inner {
+			background-image : url('./images/nav-bg.png');
+			background-repeat : repeat-x;
+		}
+
+		.navbar .nav { margin-top : 30px; font-size:14px; }
+
+		/*
+		.navbar .nav { border : 1px solid yellow; }
+		.navbar .nav li { border : 1px solid green; }
+		.navbar .nav li a { border : 1px solid red; }
+		*/
+
+		#forever {
+			background-image : url('./images/forever-starts-here.png');
+			background-repeat : no-repeat;
+			width : 200px;
+			background-position: 20px 7px;
+		}
+		#forever:hover { background-image : url('./images/forever-starts-here_hover.png'); }
+		#forever span {
+			display:none;
+		}
+				
+		/* Generic section formatting */
+		.container_wrap {
+
+		} 
+		.container.main {
+			background-color: #ffffff;
+			/* border:1px solid #cccccc; */
+			padding:0 30px 0 30px;
+			
+		}
+		.section_header_image span {
+			height : 300px;
+			width : 100%;
+			border : 1px solid blue;
+			background-color : #ccc;
+		}
+		
+		.img_container{
+			background-color : #f5f5f5;
+			min-height : 500px;
+		}
+		
+		.section_header_text { margin-bottom : 30px; }
+		section { }
+		section#blaine_and_katie {
+		}
+		
+		h3 {
+			font-size : 24px;
+			margin : 0px;
+			line-height : 30px;
+			font-weight: normal;
+		}
+		
+		.right {
+			text-align:right;
+		}
+		.left {
+			text-align:left;
+		}
+		section .row {
+			margin-bottom : 30px;
+		}
+
+		.section_header_text span {
+			text-align: center;
+		}
+
+		/*.section_header_text */
+		h2 {
+			margin : 0px;
+			background-repeat : no-repeat;
+			height : 85px;
+			background-position:50% 0;
+		}
+		/*.section_header_text */ h2 span { display:none; }
+
+		#blaine_and_katie h2 { background-image: url('./images/header_blaine_and_katie.gif'); }
+		#wedding_day h2 { background-image: url('./images/header_wedding_day.gif'); }
+		#attendants h2 { background-image: url('./images/header_attendants.gif'); }		
+		#registry h2 { background-image: url('./images/header_registry.gif'); }
+		#thankyou h2 { background-image: url('./images/header_thankyou.gif'); }
+		#attendants img {
+			border : 1px solid silver;
+		}
+
+		.a_name, .a_subname { display:block; font-size:14px; padding-top:3px;}
+		.a_subname { color:#aaaaaa; line-height : 10px; }
+
+		.givenow {
+			background-image: url('./images/givenow_btn.gif');
+			height: 85px;
+			width:186px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.givenow:hover {
+			background-image: url('./images/givenow_btn_hover.gif');		
+		}
+
+	</style>
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+	<!-- Fixed Navigation header -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+
+				<a class="brand" href="#top">
+					<img src="./images/bk_crest.png" alt="Logo" title="Click to scroll to top" class="logo">
+				</a>
+
+				<div class="nav-collapse collapse navigation-top">
+					<ul class="nav nav-pills">
+						<li><a href="#top" id="forever">&nbsp;<span>Our Forever Starts Here</span></a></li>
+						<li><a href="#blaine_and_katie">Blaine and Katie</a></li>
+						<li><a href="#thankyou">Thank You</a></li>
+					</ul>
+				</div> <!-- .nav-collapse -->
+			</div><!-- .container -->
+		</div><!-- .navbar-inner -->
+	</div><!-- .nav-->
+
+
+	<!-- header-padding : this div adds padding to push content below fixed menu -->
+	<div id="top" class="header-padding hidden-phone hidden-tablet">&nbsp;</div>
+
+
+	<!-- Part 1: Wrap all page content here -->
+	<div id="wrap">
+		<div class="container main">
+			<div class="container_wrap">
+			
+			<!-- Begin page content -->
+				
+			<!-- Start Section: Blaine and Katie -->
+			<section id="blaine_and_katie">
+				<div class="row section_header_text">
+					<div class="span4 offset4">
+						<h2><span>Blaine and Katie</span></h2>
+					</div>
+				</div>
+			
+				<div class="row">
+					<div class="span4">
+						<h3 class="right">Thank you from the <br /> bottom of our hearts.</h3>
+					</div>
+					<div class="span4 section_span_text">
+						Because of our friends and family, we had an <br /> amazing wedding day. Big ups to everyone who came out and enjoyed yard games, sunshine,
+					</div>
+					<div class="span4 section_span_text">
+						romance and brats. We're also grateful to <br /> the folks who partied at the Blue Nile and <br /> to those who were with us in spirit. 
+					</div>
+				</div>
+			
+				<div class="row" style="background-image:url('./images/flower.gif'); background-position:bottom right; background-repeat:no-repeat;">
+					<div class="span8">
+						<a href="#" id="gallery_next" title="View Next Photo">&raquo;</a>
+						<a href="#" id="gallery_prev" title="View Previous Photo">&laquo;</a>
+						<div id="gallery_image_container">
+
+
+
+							<img src="./gallery_pics/0.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/1.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/2.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/3.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/3a.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/4.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/5.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/6.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/7.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/8.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/9.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/10.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/11.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/12.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/13.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/14.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/15.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/16.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/17.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/18.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/19.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/20.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/21.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/22.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/23.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/24.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/25.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/26.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/27.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/28.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/28a.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/29.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/30.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/31.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/32.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/33.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/34.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/35.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/36.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/37.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/38.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/39.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/40.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/41.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/42.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/43.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/44.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/45.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/46.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/47.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/48.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/49.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/50.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/51.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/52.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/53.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/54.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/55.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/55a.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/56.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/57.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/58.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/59.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/60.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/61.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/62.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/63.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/64.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/65.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/66.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/67.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/68.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/69.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/70.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/71.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/72.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/73.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/74.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/75.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/76.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/77.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/78.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/79.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/80.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/81.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/82.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/83.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/84.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/85.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/86.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/87.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/88.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/89.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/90.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/91.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/92.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/93.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/94.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/95.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+							<img src="./gallery_pics/96.jpg" title="Wedding Photos!" alt="Wedding Photos" style="width:100%" />
+
+
+
+						</div>
+					</div>
+					<div class="span4">&nbsp;</div>
+				</div>
+			</section>
+			<div class="row section_footer"><div class="span12">&nbsp;</div></div>
+			<!-- End Section: Blaine and Katie -->
+
+
+			<!-- Start Section: thankyou -->
+			<section id="thankyou">		
+				<div class="row">
+					<div class="span4"><img src="./images/left_basil.gif" style="100%" alt="Basil Is Great"/></div>
+					<div class="span4">
+						<h2><span>Thank You</span></h2>
+
+						<h3 style="text-align:center">
+							<br /><br />
+							Together, our guests <br /> raised $215.00 for 
+						</h3>
+						
+						<p style="text-align:center"><img src="./images/bigs_logo.gif" alt="Big Brothers Big Sisters"/></p>
+
+					</div>
+					<div class="span4"><img src="./images/right_basil.gif" style="100%" alt="Basil Is Great"/></div>
+				</div>
+			
+
+			</section>
+			<div class="row section_footer"><div class="span12">&nbsp;</div></div>
+			<!-- End Section: thankyou -->
+
+			<!-- start of footerish picture -->
+			<div id="overshoulder" class="row">
+				<span class="span12"><img src="./images/overshoulder.jpg" style="width:100%;" alt="Over the Shoulder" /></span>
+			</div>
+			<!-- end of footerish picture -->
+
+			<div id="footer">
+				<div class="row">
+
+					<div class="span2">
+					<span class="footer_title">HTML and illustration</span>
+					<span class="footer_def"><a href="http://blainegarrett.com" target="_blank" title="Blaine's Blog and Artwork">Blaine</a></span>
+					</div>
+
+					<div class="span2">						
+					<span class="footer_title">Art direction</span>
+					<span class="footer_def"><a href="http://www.usuallypolite.com/" target="_blank" title="Katie's Portfolio: Usually Polite">Katie</a></span>
+					</div>
+
+					<div class="span2">
+					<span class="footer_title">Display typeface</span>
+					<span class="footer_def"><a href="http://paganandsharp.com/typefaces/hera-big/" target="_blank" title="Big Hera Font - Katie is a font nerd">Hera Big</a></span>
+					</div>
+
+					<div class="span2">
+					<span class="footer_title">Google webfont</span>
+					<span class="footer_def"><a href="http://www.google.com/fonts/specimen/Raleway" target="_blank" title="Raleway Font - Yup">Raleway</a></span>
+					</div>
+
+					<div class="span2">
+					<span class="footer_title">Wedding photos</span>
+					<span class="footer_def"><a href="http://www.sbhphotography.com/" target="_blank" title="SBH Photography">Sharolyn B Hagen</a></span>
+					</div>
+
+					<div class="span2">							
+					<span class="footer_title">&copy; Copyright 2013</span>
+					</div>						
+				</div><!-- /row -->
+
+			</div><!-- /footer -->
+
+				</div><!-- .container -->
+			</div><!-- .container -->
+		</div> <!-- wrap -->
+
+		<!-- Java scripts -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.3.1.js"></script>
+		<script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+		<script src="http://blainegarrett.com/merkabah/static/bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			// Add scrollTo smooth scrolling to nav
+			$('.nav').localScroll({offset: {top: -75,left:0}, duration: 1000});
+			$('.brand').bind('click', function(){
+				$(window).scrollTo('#top', 'slow');
+				return false;
+			});
+			
+			$('#gallery_image_container').cycle({timeout:6000,prev: '#gallery_prev', next: '#gallery_next'});
+			
+		});
+		</script>
+
+		<script type="text/javascript">
+			// Google Analytics
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-8476520-6']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+	</body>
+</html>
